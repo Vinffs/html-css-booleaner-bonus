@@ -1,0 +1,111 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    background-image: url(../img/pattern.png);
+    background-color: #4ea0ff;
+    background-size: 20%;
+    height: 100px;
+}
+
+#logo{
+    width: 200px;
+    height: 150px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    
+}
+
+/* 5px margin left execpt header */
+div {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+/* article */
+h1 {
+    font-size: 3.5em;
+
+}
+
+article>h3, h4{
+    color: #a7a7a7;
+}
+
+h3>span {
+    color: #20a9e5;
+}
+
+figure{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+figcaption{
+    font-size: 0.8em;
+}
+
+
+/* main */
+main{
+    margin-bottom: 40px;
+}
+p>span {
+    background-color: yellow;
+}
+
+ul {
+    margin-left: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+table{
+    margin-bottom: 40px;
+    width: 100%;
+    border-spacing: 0px;
+}
+
+thead{
+    background-color: #20a9e5;
+    color: #FFFFFF;
+    text-align: left;
+
+}
+
+.lightblue-rows{
+    background-color:#b1e5f2 ;
+    column-rule-color:#b1e5f2;
+}
+
+.centered-column {
+    background-color:#FFFFFF;
+}
+
+
+/* aside */
+
+aside>h4{
+    margin-bottom: 10px;
+    color: #4c4c4c;
+}
+
+.monitor, .graph{
+    margin: 0px;
+    /* display: block; */
+    position: relative;
+
+}
+
+aside>div>h3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #FFFFFF;
+}
